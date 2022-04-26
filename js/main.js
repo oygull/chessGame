@@ -56,6 +56,6 @@ castle.addEventListener(('click',()=>{
   
 }))
 
-
+})
 
 
