@@ -27,8 +27,6 @@ arr.forEach((square)=>{
   let box = document.createElement('div');
   box.classList= 'box';
   chess.appendChild(box);
-  box.innerHTML = `<span class="axis-x">${items.x}</span>
-  <span class="axis-y">${items.y}</span>`
  box.addEventListener('mousemove',(e)=>{
    xAxis.innerHTML = `x : ${square.x}`
    yAxis.innerHTML = `y : ${square.y}`
@@ -52,9 +50,6 @@ if(square.y%2!==0 && square.x%2==0){
 
 // Catle
 
-castle.addEventListener(('click',()=>{
-  
-}))
 
 })
 
